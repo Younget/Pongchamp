@@ -273,8 +273,9 @@ GameObject:
   - component: {fileID: 465720834}
   - component: {fileID: 465720836}
   - component: {fileID: 465720835}
+  - component: {fileID: 465720837}
   m_Layer: 5
-  m_Name: score right
+  m_Name: score_right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -341,6 +342,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 465720833}
   m_CullTransparentMesh: 0
+--- !u!114 &465720837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465720833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7547fa5e9dc4fa4680f13275008a1f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &477230995
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +590,7 @@ GameObject:
   - component: {fileID: 897505957}
   - component: {fileID: 897505956}
   - component: {fileID: 897505960}
+  - component: {fileID: 897505961}
   m_Layer: 0
   m_Name: ball
   m_TagString: Untagged
@@ -706,6 +720,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: {x: 120, y: 70}
+--- !u!114 &897505961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897505955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c56811bc4ef7f174f939e0f31d3b5285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreleft: 0
+  scoreright: 0
 --- !u!1 &1048660326
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,7 +852,7 @@ GameObject:
   - component: {fileID: 1150170486}
   - component: {fileID: 1150170485}
   m_Layer: 5
-  m_Name: score left
+  m_Name: score_left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

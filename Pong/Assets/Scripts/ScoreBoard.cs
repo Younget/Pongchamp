@@ -16,8 +16,7 @@ using UnityEngine.UI;
 
 public class ScoreBoard : MonoBehaviour
 {
-    public float scoreleft = 0f;
-    public float scoreright = 0f; 
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +26,11 @@ public class ScoreBoard : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        UpdateScore();
+    }
+    public void UpdateScore()
+    {
+        Text myTextright = GetComponent<Text>();
+        myTextright.text = FindObjectOfType<balldestroy>().scoreright.ToString();
     }
 }
