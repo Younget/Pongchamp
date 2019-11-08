@@ -26,8 +26,14 @@ public class balldestroy : MonoBehaviour
         if (transform.position.x < 0)
             scoreright++;
         transform.position = respawnposition;
-        if (scoreleft >11 || scoreright > 11)
+        if (scoreleft >= 11)
         {
+            /* Change the scene to the player 1 win screen */
+
+        }
+        if (scoreright >= 11)
+        {
+            /* Change the scene to the player 2 win screen */
 
         }
     }
