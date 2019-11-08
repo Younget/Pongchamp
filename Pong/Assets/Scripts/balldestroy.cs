@@ -7,6 +7,8 @@ public class balldestroy : MonoBehaviour
     // Start is called before the first frame update
     public float scoreleft = 0f;
     public float scoreright = 0f;
+    public GameObject ball;
+    Vector3 respawnposition = new Vector3(0f, 0f, 0f);
     void Start()
     {
         
@@ -22,7 +24,11 @@ public class balldestroy : MonoBehaviour
         if (transform.position.x > 0)
             scoreleft++;
         if (transform.position.x < 0)
-            scoreright++; 
-        Destroy(gameObject);
+            scoreright++;
+        transform.position = respawnposition;
+        if (scoreleft >11 || scoreright > 11)
+        {
+
+        }
     }
 }
