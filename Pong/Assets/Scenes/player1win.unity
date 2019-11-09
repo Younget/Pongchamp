@@ -94,8 +94,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
     m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -345,7 +345,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1288950288}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ba4d2ecb86f5c141a7a0a12a4fd8cbf, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c227bf7f14af6f43bd2337f8b904de8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   NextScene: SampleScene
@@ -419,7 +419,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Replay
 --- !u!222 &1300920588
 CanvasRenderer:
   m_ObjectHideFlags: 0

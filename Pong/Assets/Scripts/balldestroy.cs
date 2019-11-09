@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class balldestroy : MonoBehaviour
 {
+    public string NextScene = "player1win";
+    public string NextScene2 = "player2win";
+
     // Start is called before the first frame update
     public float scoreleft = 0f;
     public float scoreright = 0f;
@@ -28,13 +32,11 @@ public class balldestroy : MonoBehaviour
         transform.position = respawnposition;
         if (scoreleft >= 11)
         {
-            /* Change the scene to the player 1 win screen */
-
+                SceneManager.LoadScene(NextScene);
         }
         if (scoreright >= 11)
         {
-            /* Change the scene to the player 2 win screen */
-
+            SceneManager.LoadScene(NextScene2);
         }
     }
 }
