@@ -25,7 +25,7 @@ public class ScreenShakeOnCollision : MonoBehaviour
     }
     public void ScreenShakeInitiate()
     {
-        gameObject.GetComponent<ScreenShake>().Update();
+        Shake = gameObject.GetComponent<ScreenShake>().Update();
 
     }
 }

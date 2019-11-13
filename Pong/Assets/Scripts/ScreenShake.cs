@@ -17,8 +17,12 @@ Camera camera;
 float shake = 0f;
 float ShakeAmount = 0.7f;
 float DecreaseFactor = 1.0f;
- 
-public void Update()
+
+    private void Start()
+    {
+        camera = GetComponent<Camera>(); 
+    }
+    public void Update()
     {
         if (shake > 0)
         {
