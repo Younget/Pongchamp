@@ -337,6 +337,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420034}
+  - component: {fileID: 519420030}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -352,6 +353,18 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
+--- !u!114 &519420030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1444e7bb57cca546a2acfe14010c149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -497,6 +510,18 @@ MonoBehaviour:
   scoreleft: 0
   scoreright: 0
   ball: {fileID: 783459878}
+--- !u!114 &783459884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783459878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27fe173ed2d99d849a1bbc5c2c42abcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &917761292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -934,7 +959,7 @@ GameObject:
   - component: {fileID: 2052243494}
   m_Layer: 0
   m_Name: upperbound
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1042,7 +1067,7 @@ GameObject:
   - component: {fileID: 2060089974}
   m_Layer: 0
   m_Name: lowerbound
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1228,7 +1253,7 @@ PrefabInstance:
     - target: {fileID: 1294653330682714647, guid: dd033823ff1a4214faf6d29cfc4d91db,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.851245
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1294653330682714647, guid: dd033823ff1a4214faf6d29cfc4d91db,
         type: 3}
