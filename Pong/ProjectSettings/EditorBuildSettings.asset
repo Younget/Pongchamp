@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/player2win.unity
     guid: 6a8117e82e5f44d4fae1a92cf96a90a9
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 7241f0444c7fae84892ebc4a3d2f3f83
+    path: Assets/Scenes/FancyMode.unity
+    guid: 96bd885efc6758e4c9857aee36ede20a
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

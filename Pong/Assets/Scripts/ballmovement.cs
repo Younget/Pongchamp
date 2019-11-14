@@ -6,6 +6,7 @@ public class ballmovement : MonoBehaviour
 {
     // Start is called before the first frame update
     Rigidbody2D myRB;
+    public ScreenShake sb; 
     public Vector2 velocity = new Vector2(2f, 2f);
     void Start()
     {
@@ -17,6 +18,12 @@ public class ballmovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "wall")
+        { sb.shakeDuration = 0.5f; }
         
     }
 }
