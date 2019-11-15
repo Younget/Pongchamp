@@ -20,7 +20,7 @@ public class paddleleft : MonoBehaviour
     void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
-        transform.position = new Vector2(-7.5f, 0f);
+        transform.position = new Vector2(-5f, 0f);
     }
 
     // Update is called once per frame
