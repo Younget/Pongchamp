@@ -16,13 +16,12 @@ public class paddle : MonoBehaviour
     // Start is called before the first frame update
     Rigidbody2D myRB;
     public float movement = 0.1f;
-    // THIS IS WORK IN PROGRESS, WILL FINISH LATER
-    saw = GameObject.FindObjectOfType<AudioSource>();
+    AudioSource paddlehit;
     void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
         transform.position = new Vector2(5f, 0f);
-        
+        paddlehit = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -45,10 +44,9 @@ public class paddle : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // WORK IN PROGRESS WILL FINISH LATER TONIGHT - ETHAN
         if (collision.gameObject.name == "ball")
         {
-            saw.Play();
+            paddlehit.Play();
         }
 
     }

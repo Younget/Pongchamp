@@ -16,11 +16,12 @@ public class paddleleft : MonoBehaviour
     // Start is called before the first frame update
     Rigidbody2D myRB;
     public float movement = 0.1f;
-
+    AudioSource paddlehit;
     void Start()
     {
         myRB = GetComponent<Rigidbody2D>();
         transform.position = new Vector2(-5f, 0f);
+        paddlehit = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -40,5 +41,12 @@ public class paddleleft : MonoBehaviour
             transform.position += new Vector3(0f, movement, 0f);
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "ball")
+        {
+            paddlehit.Play();
+        }
 
+    }
 }

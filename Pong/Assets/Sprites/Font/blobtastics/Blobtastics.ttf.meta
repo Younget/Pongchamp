@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 4a6def8710410ff4cb5d232aa3bab381
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Blobtastics
+  fontNames:
+  - Blobtastics
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e4f8ce939d174ec499565b19cee36226, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -14,12 +14,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pong.unity
     guid: 32cba4d64244efa41b254748bc41b37c
-  - enabled: 1
-    path: Assets/Scenes/player1win.unity
-    guid: e80052c8e43ed6f4fa5579aac3510bc5
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/player2win.unity
     guid: 6a8117e82e5f44d4fae1a92cf96a90a9
+  - enabled: 1
+    path: Assets/Scenes/player1win.unity
+    guid: 4aa8572f5ca1beb48918c9f148ad4cec
   - enabled: 1
     path: Assets/Scenes/FancyMode.unity
     guid: 96bd885efc6758e4c9857aee36ede20a
