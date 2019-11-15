@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56f4cd29119a05846950166335b20323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NextScene: pong
+  NextScene: Pong
 --- !u!1 &970120550
 GameObject:
   m_ObjectHideFlags: 0
