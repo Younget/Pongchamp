@@ -204,9 +204,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 171503915}
-        m_MethodName: set_raycastTarget
-        m_Mode: 6
+      - m_Target: {fileID: 171503917}
+        m_MethodName: ChangeScene
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
